@@ -1,0 +1,23 @@
+name: belarus_plate
+description: "Belarus's licence plates for the plate_core library — the 2004 series in every current category, with the diplomatic mission register and its refused codes."
+version: 0.1.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plate_core: ^0.11.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/flags/Flag_of_Belarus.svg
