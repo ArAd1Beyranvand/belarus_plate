@@ -4,8 +4,8 @@
 ///
 /// Diplomatic code `09` is refused everywhere this package is used: by the
 /// spec's `PlateRestriction`, by the validator, by `BelarusMissions`, and —
-/// through `plate_core` — by the controller, the input machine, the canvas and
-/// `core_plate_bloc`. Every one of them reports `BelarusMissions.notFound`.
+/// through `plate_core` — by the controller, the input machine and the canvas.
+/// Every one of them reports `BelarusMissions.notFound`.
 library;
 
 export 'src/belarus_alphabets.dart';
